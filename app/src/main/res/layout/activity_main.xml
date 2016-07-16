@@ -13,7 +13,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Num.Telefone, busca, artista"
+        android:hint="Nº Telefone, artista ou busca"
         android:id="@+id/field"/>
 
     <Button
@@ -26,8 +26,8 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sms"
-        android:id="@+id/btSms"
+        android:text="SMS"
+        android:id="@+id/btSMS"
         android:onClick="enviarSms" />
 
     <Button
@@ -41,8 +41,8 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Busca Direta"
-        android:id="@+id/btBuscaDireta"
+        android:text="Busca"
+        android:id="@+id/btBusca"
         android:onClick="buscaDireta" />
 
     <Button
