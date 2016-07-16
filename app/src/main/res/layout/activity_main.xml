@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insira o texto:"
+        android:id="@+id/title" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Num.Telefone, busca, artista"
+        android:id="@+id/field"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Google Maps"
+        android:id="@+id/btGoogleMaps"
+        android:onClick="googleMaps" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sms"
+        android:id="@+id/btSms"
+        android:onClick="enviarSms" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Configurações"
+        android:id="@+id/configuracoes"
+        android:onClick="configuracoes" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Busca Direta"
+        android:id="@+id/btBuscaDireta"
+        android:onClick="buscaDireta" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tocar Musica"
+        android:id="@+id/btTocarMusica"
+        android:onClick="buscaMusica" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/horaEditText"
+        android:hint="Hora"
+        android:inputType="number"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/minutoEditText"
+        android:inputType="number"
+        android:hint="Minuto"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="alarme"
+        android:id="@+id/btAlarme"
+        android:onClick="chamarAlarme" />
+
+</LinearLayout>
